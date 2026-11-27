@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "printing path"
-        run: pwd
-      - name: "printing name"
-        run: echo mhmd
+      - name: "printing files"
+        run: ls
+      
         
 
